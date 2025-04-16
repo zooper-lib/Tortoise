@@ -8,9 +8,9 @@
         <RepositoryUrl>https://github.com/zooper-lib/Tortoise</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageIcon>icon.png</PackageIcon>
-        <PackageTags>discriminated-union;oneOf;source-generator;C#</PackageTags>
+        <PackageTags>strong-type;strongly-typed-ids;primitive-obsession;source-generator;C#</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <Description>A .NET source generator for creating discriminated unions in C# with OneOf.</Description>
+        <Description>A .NET library that simplifies the implementation of the "Strong Type" pattern in C# applications.</Description>
 
         <!-- Version information -->
         <Version>1.0.2</Version>
