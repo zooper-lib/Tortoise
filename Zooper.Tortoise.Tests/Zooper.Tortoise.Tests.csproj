@@ -10,7 +10,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.CodeAnalysis.CSharp.SourceGenerators.Testing.XUnit" Version="1.1.1"/>
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.2"/>
         <PackageReference Include="xunit" Version="2.4.2"/>
         <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
@@ -20,9 +19,10 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Zooper.Gorilla\Zooper.Gorilla.csproj" />
         <ProjectReference Include="..\Zooper.Tortoise.Generators\Zooper.Tortoise.Generators.csproj" />
+        <ProjectReference Include="..\Zooper.Tortoise.Generators.Attributes\Zooper.Tortoise.Generators.Attributes.csproj" />
+        <ProjectReference Include="..\Zooper.Tortoise\Zooper.Tortoise.csproj" />
+        <ProjectReference Include="..\Zooper.Tortoise.Sample\Zooper.Tortoise.Sample.csproj" />
     </ItemGroup>
-
 
 </Project>
